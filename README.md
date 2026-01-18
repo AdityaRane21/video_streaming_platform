@@ -1,45 +1,87 @@
-<<<<<<< HEAD
-# React + Vite
+# Video Streaming Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend-based **Video Streaming Platform** built using **React + Vite**, inspired by modern video platforms. This project focuses on clean UI, smooth navigation, and scalable frontend architecture.
 
-Currently, two official plugins are available:
+> Inspired by *Chai aur Code* 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# backend
+- **Objective:**  
+  Build a responsive video streaming platform frontend with a modern development setup.
 
-## Setup
+- **Tech Stack:**  
+  - React.js  
+  - Vite  
+  - JavaScript (ES6+)  
+  - HTML5 & CSS3  
 
-1. Go to project folder
+- **Key Features:**  
+  - Fast development using Vite  
+  - Component-based React architecture  
+  - Clean and scalable folder structure  
+  - ESLint for code quality  
 
-> cd backend
+---
 
-2. Install Dependencies
+## 📂 Repository Structure
 
-> npm run setup
+video_streaming_platform/
+├─ public/ # Static assets
+├─ src/ # React source code
+├─ .gitignore
+├─ README.md
+├─ eslint.config.js
+├─ index.html
+├─ index.js
+├─ package.json
+├─ package-lock.json
+├─ vite.config.js
 
-3. Create .env with following content
+---
 
-````
-DB_URL=
+## ⚙️ Installation & Setup
 
-PORT=3000
-SECRET=AAA
-````
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/AdityaRane21/video_streaming_platform.git
+cd video_streaming_platform
+```
 
-## Run
-
-1. Start Server
-
-> npm start
-
-2. Open in url or using an Endpoint tester (postman)
-
-> http://127.0.0.1:3000/
->>>>>>> 797da2895cafc4dc4a72234ae20853185088d197
+### 2️⃣ Install Dependencies
+```
+npm install
+```
+### 3️⃣ Start Development Server
+```
+npm run dev
+```
+### Open the application in your browser at:
+```
+http://localhost:5173
+```
+### 📈 How It Works
+```
+Vite initializes the project and provides fast hot module replacement.
+React renders UI components from the src directory.
+Static assets are served from the public directory.
+ESLint ensures consistent and clean code.
+```
+### 📝 Usage
+```
+Modify or add components inside the src folder.
+Customize styles using CSS or any preferred styling approach.
+Add video playback, APIs, authentication, and backend integration.
+```
+### 💡 Future Improvements
+```
+1️⃣ Video Playback Integration
+Integrate a video player using real video data.
+2️⃣ Backend & APIs
+Add backend support for videos, users, and streaming.
+3️⃣ Authentication
+User login and personalized recommendations.
+4️⃣ Performance Optimization
+Lazy loading and caching strategies.
+```
